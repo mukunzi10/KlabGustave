@@ -1,0 +1,115 @@
+/** @format */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 51px;
+}
+h2 {
+	font-size: 26px;
+}
+p {
+	font-size: 17px;
+	padding-top: 10px;
+}
+#wallaper {
+	position: relative;
+}
+.contours {
+	position: absolute;
+	bottom: -200px;
+	z-index: -1;
+}
+.logo {
+	padding-bottom: 20px;
+	width: 100px;
+	position: relative;
+	top: 0px;
+	left: -1px;
+}
+
+.content {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 70px;
+	/* height: 80vh; */
+	box-shadow: 10px 10px 20px 10px grey;
+	position: relative;
+}
+.form-contours {
+	position: absolute;
+	top: -66px;
+	right: -1px;
+}
+.inner-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	padding-bottom: 20px;
+}
+.col {
+}
+input[type="text"] {
+	width: 100%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+.btn {
+	background-color: rgba(75, 57, 241, 0.733);
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 14px;
+}
+.no-outline:focus {
+	outline: none;
+}
+.left-container {
+}
+.right-container {
+	border-left: 1px solid black;
+	margin: 40px;
+	padding: 40px;
+}
+.download {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+}
+.cursor {
+	cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body {
+	font-family: "Nunito", sans-serif;
+	font-family: "Outfit", sans-serif;
+}
+textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid black;
+}
